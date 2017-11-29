@@ -1,0 +1,19 @@
+   93  cd OneDrive/Documents/School/Galvanize/version-control-using-git/drills/version-1
+   94  cd ../../..
+   95  mkdir git-drill-1
+   96  cd git-drill-1
+   97  git init
+   98  touch readme.md index.html style.css
+   99  git remote add origin git@github.com:milo0721/git-drill-1.git
+  100  git add index.html
+  101  git status
+  102  git commit -m "first upload"
+  103  nano readme.md
+  104  git add .
+  105  git reset
+  106  touch app.js & cd .. & mv excited.gif git-drill-1/excited.gif
+  107  cd git-drill-1
+  108  git add .
+  109  git commit -m "Excited Charlie Day"
+  110  git log
+  111  git push -u origin master
